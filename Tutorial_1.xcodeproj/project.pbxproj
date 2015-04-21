@@ -14,6 +14,8 @@
 		842507731AE6DABE004937EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842507721AE6DABE004937EB /* Images.xcassets */; };
 		842507761AE6DABE004937EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842507741AE6DABE004937EB /* LaunchScreen.xib */; };
 		842507821AE6DABE004937EB /* Tutorial_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842507811AE6DABE004937EB /* Tutorial_1Tests.m */; };
+		8425078E1AE6DD88004937EB /* Tutorial_1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425078C1AE6DD88004937EB /* Tutorial_1ViewController.m */; };
+		8425078F1AE6DD88004937EB /* Tutorial_1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8425078D1AE6DD88004937EB /* Tutorial_1ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		8425077B1AE6DABE004937EB /* Tutorial_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842507801AE6DABE004937EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842507811AE6DABE004937EB /* Tutorial_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial_1Tests.m; sourceTree = "<group>"; };
+		8425078B1AE6DD88004937EB /* Tutorial_1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial_1ViewController.h; sourceTree = "<group>"; };
+		8425078C1AE6DD88004937EB /* Tutorial_1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial_1ViewController.m; sourceTree = "<group>"; };
+		8425078D1AE6DD88004937EB /* Tutorial_1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tutorial_1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				842507721AE6DABE004937EB /* Images.xcassets */,
 				842507741AE6DABE004937EB /* LaunchScreen.xib */,
 				842507651AE6DABE004937EB /* Supporting Files */,
+				8425078B1AE6DD88004937EB /* Tutorial_1ViewController.h */,
+				8425078C1AE6DD88004937EB /* Tutorial_1ViewController.m */,
+				8425078D1AE6DD88004937EB /* Tutorial_1ViewController.xib */,
 			);
 			path = Tutorial_1;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8425078F1AE6DD88004937EB /* Tutorial_1ViewController.xib in Resources */,
 				842507711AE6DABE004937EB /* Main.storyboard in Resources */,
 				842507761AE6DABE004937EB /* LaunchScreen.xib in Resources */,
 				842507731AE6DABE004937EB /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8425078E1AE6DD88004937EB /* Tutorial_1ViewController.m in Sources */,
 				8425076E1AE6DABE004937EB /* ViewController.m in Sources */,
 				8425076B1AE6DABE004937EB /* AppDelegate.m in Sources */,
 				842507681AE6DABE004937EB /* main.m in Sources */,
