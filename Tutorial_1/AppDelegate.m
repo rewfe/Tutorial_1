@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     Tutorial_1ViewController *viewController = [[Tutorial_1ViewController alloc] initWithNibName:@"Tutorial_1ViewController" bundle:nil];
     self.window.rootViewController = viewController;
-    // Override point for customization after application launch.
+    
     return YES;
 }
 
